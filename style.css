@@ -1,0 +1,13 @@
+.header {
+    height: 200px;
+    background-color: #222222;
+}
+
+.title {
+    color: #61dafb;
+}
+
+.logo {
+    display: block;
+    width: 5%;
+}
