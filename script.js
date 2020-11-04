@@ -25,5 +25,5 @@ class Header extends React.Component{
 
 ReactDOM.render(
     < Header />,
-    document.getElementById('root')
+    document.getElementById('header')
 )
