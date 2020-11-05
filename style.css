@@ -3,7 +3,7 @@
     background-color: #222222;
 }
 
-.title {
+.header_title {
     color: #61dafb;
 }
 
@@ -11,3 +11,14 @@
     display: block;
     width: 5%;
 }
+
+
+.main {
+    background-color: #19161F;
+    height: 500px;
+}
+
+.main_title {
+    color: #F91803 ;
+}
+
