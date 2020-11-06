@@ -15,10 +15,17 @@
 
 .main {
     background-color: #19161F;
-    height: 500px;
+    height: 200px;
 }
 
 .main_title {
     color: #F91803 ;
 }
+
+.footer {
+    background-color: #252525;
+    height: 200px;
+}
+
+
 
