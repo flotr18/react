@@ -7,7 +7,10 @@ const ClassName = {
     logo : 'logo mx-auto',
 
     main : 'col-12 main',
-    main_title : 'main_title mt-5 text-center'
+    main_title : 'main_title mt-5 text-center',
+
+    footer : 'col-12 footer',
+    footer_title : 'footer_title mt-5 text-center'
 
 
 }
@@ -24,7 +27,7 @@ function Header(){
                    </div>
            </div>
 
-    
+
 }
 
 
@@ -43,6 +46,19 @@ function Main(){
 }
 
 
+function Footer(props){
+    return <div className={ClassName.container}>
+        <div className={ClassName.row}>
+            <div className={ClassName.footer}>
+                <h1 className={ClassName.footer_title}>{props.footer}</h1>
+            </div>
+
+
+        </div>
+    </div>
+}
+
+
 ReactDOM.render(
     < Header />,
     document.getElementById('header')
@@ -51,4 +67,9 @@ ReactDOM.render(
 ReactDOM.render(
     < Main />,
     document.getElementById('main')
+)
+
+ReactDOM.render(
+    < Footer footer="Footer Part ! " />,
+    document.getElementById('footer')
 )
